@@ -25,16 +25,15 @@
         <script src="/static/visualizations.js"></script>
         <script src="/static/main.js"></script>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-11337039-18', 'auto');
-	  ga('send', 'pageview');
-
-	</script>	
+          ga('create', 'UA-11337039-18', 'auto');
+          ga('send', 'pageview');
+        </script>
 
     </head>
 
@@ -49,7 +48,7 @@
 
                     <li ng-hide="user"><a href="#/login">Login</a></li>
                     <li ng-hide="user"><a href="#/register">Register</a></li>
-		    <li><a target="_blank" href="https://vmprof.readthedocs.org/">Docs</a></li>
+                    <li><a target="_blank" href="https://vmprof.readthedocs.org/">Docs</a></li>
 
                     <li ng-show="user" class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -69,11 +68,11 @@
             <div ng-view></div>
         </div>
 
-	<div class="container footer text-center">
-	  <a href="https://vmprof.readthedocs.org/en/latest/">
-	    https://vmprof.readthedocs.org/
-	  </a>
-	</div>
+        <div class="container footer text-center">
+            <a href="https://vmprof.readthedocs.org/en/latest/">
+                https://vmprof.readthedocs.org/
+            </a>
+        </div>
 
     </body>
 
